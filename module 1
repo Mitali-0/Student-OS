@@ -36,8 +36,8 @@ void displayProfile(struct profile profile){
     printf("\t\tName\t\t\t:%s\n",profile.name);
     printf("\t\tRoll Number\t\t:%d\n",profile.roll);
     printf("\t\tBranch\t\t\t:%s\n",profile.branch);
-    printf("\t\tSemester\t\t  :%d\n",profile.sem);
-    printf("\t\tCurrent Study goal:%s\n",profile.goal);
+    printf("\t\tSemester\t\t:%d\n",profile.sem);
+    printf("\t\tCurrent Study goal\t:%s\n",profile.goal);
 }
 struct profile updateProfile(struct profile profile){
     int choice;
